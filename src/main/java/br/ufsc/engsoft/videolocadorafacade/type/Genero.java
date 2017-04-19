@@ -20,6 +20,7 @@ public enum Genero {
     COMEDIA_ROMANTICA,
     DRAMA,
     DOCUMENTARIO,
+    EPICO,
     FAMILIA,
     INFANTIL,
     MUSICAL,

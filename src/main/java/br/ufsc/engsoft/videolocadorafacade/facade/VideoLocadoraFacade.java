@@ -23,6 +23,13 @@ import java.util.Date;
  */
 public class VideoLocadoraFacade {
 
+    private VideoLocadoraFacade() {
+    }
+
+    public static VideoLocadoraFacade getInstance() {
+        return new VideoLocadoraFacade();
+    }
+    
     /**
      * Método para alugar um Filme.
      * @param filme Filme a ser locado.

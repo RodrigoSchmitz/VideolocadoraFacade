@@ -29,6 +29,7 @@ public class Categoria {
      * @param nome Nome da Categoria.
      * @param quantidadeDias Quantidade de dias que o filme pode ficar locado.
      * @param valor Valor da locação.
+     * @param juros Juros da Categoria.
      */
     public Categoria(String nome, Integer quantidadeDias, BigDecimal valor, Double juros) {
         this.nome = nome;
